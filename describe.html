@@ -1,1 +1,10 @@
+The course project for Practical Machine Learning course.
 
+1) Getting and cleaning the data. Firstly columns with NA were removed from "train" data frame.
+Then only columns common with "test" data frame columns were considered. And "classe" column. (total 52+1 columns left in "train" data frame)
+2) Splitting "train" data frame into "train1" and "cValidation" data frames at 3/4 and 1/4 proportions respectively.
+
+3)Random forest model was selected for training and prediction. 
+4)Accuracy of training and crossvalidation set and missclassification rate were calculated. 
+Accuracy is 99.55%.
+5)Prediction for "test" data frame was composed.
